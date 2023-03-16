@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 
 ruby '2.7.5'
 
-gem 'rails', '6.1.7.2'
+gem 'rails', '6.1.7.3'
 
 gem 'coffee-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.2.0'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.0.8'
 gem 'compass-rails', '~> 4.0.0'
 
-gem 'jquery-rails', '~> 4.3.1'
+gem 'jquery-rails', '~> 4.3.5'
 
 # Bundle the extra gems:
 
@@ -40,17 +40,17 @@ gem 'will_paginate', '~> 3.3.1'
 gem 'redis', '~> 4.6.0'
 gem 'hiredis', '~> 0.6.3'
 gem 'thinking-sphinx', '~> 3.3.0'
-gem 'flying-sphinx', '~> 1.2.0'
+gem 'flying-sphinx', '~> 1.2.1'
 # Use patched v2.0.2
 # Fixes issues: Create a new delayed delta job if there is an existing delta job which has failed
 gem 'ts-delayed-delta', '2.1.0'
 gem 'possibly', '~> 1.0.1'
 
-gem 'delayed_job', '~> 4.1.3'
-gem 'delayed_job_active_record', '~> 4.1.3'
+gem 'delayed_job', '~> 4.1.10'
+gem 'delayed_job_active_record', '~> 4.1.7'
 
 gem 'web_translate_it', '~> 2.6.2'
-gem 'rails-i18n', '~> 6.0'
+gem 'rails-i18n', '~> 6.0', '>= 6.0.0'
 gem 'devise', '~> 4.8.1'
 gem 'devise-encryptable', '~> 0.2.0'
 gem 'omniauth-facebook', '~> 9.0.0'
@@ -91,7 +91,7 @@ gem 'faraday', '~> 1.10.0'
 gem 'faraday_middleware', '~> 1.2.0'
 gem 'faraday-encoding', '~> 0.0.5'
 
-gem 'react_on_rails', '>= 11.3.0'
+gem 'react_on_rails', '>= 13.0.2'
 
 gem 'sitemap_generator', '~> 6.2.1'
 
