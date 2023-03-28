@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.5'
 
-gem 'rails', '6.1.7.2'
+gem 'rails', '6.1.7.3'
 
 gem 'coffee-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.2.0'
@@ -91,7 +91,7 @@ gem 'faraday', '~> 1.10.0'
 gem 'faraday_middleware', '~> 1.2.0'
 gem 'faraday-encoding', '~> 0.0.5'
 
-gem 'react_on_rails', '>= 11.3.0'
+gem 'react_on_rails', '>= 13.0.2'
 
 gem 'sitemap_generator', '~> 6.2.1'
 
