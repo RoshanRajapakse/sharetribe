@@ -42,7 +42,7 @@
     "@babel/preset-react": "7.0.0",
     "@babel/runtime": "7.4.4",
     "axios": "^0.21.2",
-    "babel-loader": "8.2.5",
+    "babel-loader": "9.0.0",
     "check-node-version": "3.3.0",
     "classnames": "2.2.5",
     "css-loader": "3.0.0",
@@ -81,7 +81,7 @@
     "transit-js": "0.8.846",
     "uglifyjs-webpack-plugin": "2.2.0",
     "url-loader": "1.1.2",
-    "webpack": "4.30.0",
+    "webpack": "5.1.1",
     "webpack-cli": "3.3.0",
     "whatwg-fetch": "3.6.2"
   },
