@@ -24,7 +24,7 @@ gem 'haml', '~> 5.2.2'
 gem 'sass', '3.4.24'
 # gem 'compass', '0.12.2'
 
-gem 'rack-attack', '~> 6.6.1'
+gem 'rack-attack', '~> 6.7.0'
 gem 'rest-client', '~> 2.1.0'
 
 gem 'paperclip', '~> 6.1.0'
