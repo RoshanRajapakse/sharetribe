@@ -80,7 +80,7 @@ gem 'paypal-sdk-merchant', '~> 1.117.2'
 gem 'airbrake', '~> 10.0.4'
 gem 'stripe', '~> 5.55.0'
 
-gem 'lograge', '~> 0.12.0'
+gem 'lograge', '~> 0.13.0'
 gem 'public_suffix' # Needed currently to set GA hostname right, probably not
 # needed anymore when GA script updated.
 
