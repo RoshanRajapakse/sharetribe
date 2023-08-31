@@ -85,7 +85,7 @@ gem 'public_suffix' # Needed currently to set GA hostname right, probably not
 # needed anymore when GA script updated.
 
 # Session store was removed from Rails 4
-gem 'activerecord-session_store', '~> 2.0.0'
+gem 'activerecord-session_store', '~> 2.1.0'
 
 gem 'faraday', '~> 1.10.0'
 gem 'faraday_middleware', '~> 1.2.0'
