@@ -47,7 +47,7 @@ gem 'ts-delayed-delta', '2.1.0'
 gem 'possibly', '~> 1.0.1'
 
 gem 'delayed_job', '~> 4.1.3'
-gem 'delayed_job_active_record', '~> 4.1.3'
+gem 'delayed_job_active_record', '~> 4.1.8'
 
 gem 'web_translate_it', '~> 2.6.2'
 gem 'rails-i18n', '~> 6.0'
