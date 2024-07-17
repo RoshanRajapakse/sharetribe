@@ -75,8 +75,8 @@ gem 'statesman', '~> 9.0.1'
 gem 'premailer-rails', '~> 1.11.1'
 gem 'css_parser', '~> 1.11.0'
 gem 'stringex', '~> 2.8.5'
-gem 'paypal-sdk-permissions', '~> 1.96.4'
-gem 'paypal-sdk-merchant', '~> 1.117.2'
+gem 'paypal-sdk-permissions', '~> 1.96.5'
+gem 'paypal-sdk-merchant', '~> 1.117.3'
 gem 'airbrake', '~> 10.0.4'
 gem 'stripe', '~> 5.55.0'
 
@@ -117,9 +117,9 @@ group :staging, :production do
 end
 
 group :development, :test do
-  gem 'rubocop', '~> 1.29.0',  require: false
-  gem 'rubocop-performance', '~> 1.13.3', require: false
-  gem 'rubocop-rails', '~> 2.14.2', require: false
+  gem 'rubocop', '~> 1.29.1', require: false
+  gem 'rubocop-performance', '~> 1.14.0', require: false
+  gem 'rubocop-rails', '~> 2.15.0', require: false
   gem 'factory_girl_rails', '~> 4.9.0'
 end
 
@@ -144,7 +144,7 @@ group :test do
   gem 'cucumber-rails', '~> 2.2.0', require: false # require: false is needed for cucumber-rails
   gem 'cucumber', '3.1.2'
 
-  gem 'selenium-webdriver', '~> 4.1.0'
+  gem 'selenium-webdriver', '~> 4.2.0'
 
   # Launchy is needed by Capybara, e.g. save_and_open command needs Launchy to open a browser
   gem 'launchy', '~> 2.5.0'
@@ -160,7 +160,7 @@ group :test do
   gem 'fake_stripe', git: 'https://github.com/ithouse/fake_stripe.git', ref: '56fe73dc420d161ecf9842739af7d857031ca1b2'
   gem 'poltergeist', '~> 1.18.1'
   gem 'puma', '~> 5.6.4'
-  gem 'webdrivers', '~> 5.0.0'
+  gem 'webdrivers', '~> 5.1.0'
   gem 'multi_test', '0.1.2'
 end
 
