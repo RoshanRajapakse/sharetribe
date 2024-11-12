@@ -50,7 +50,7 @@ gem 'delayed_job', '~> 4.1.3'
 gem 'delayed_job_active_record', '~> 4.1.3'
 
 gem 'web_translate_it', '~> 2.6.2'
-gem 'rails-i18n', '~> 6.0'
+gem 'rails-i18n', '~> 8.0', '>= 8.0.0'
 gem 'devise', '~> 4.8.1'
 gem 'devise-encryptable', '~> 0.2.0'
 gem 'omniauth-facebook', '~> 9.0.0'
