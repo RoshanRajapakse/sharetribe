@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.7.5'
 
-gem 'rails', '6.1.7.2'
+gem 'rails', '7.0.0'
 
 gem 'coffee-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.2.0'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 6.0.0'
 gem 'compass-rails', '~> 4.0.0'
 
 gem 'jquery-rails', '~> 4.3.1'
@@ -118,8 +118,8 @@ end
 
 group :development, :test do
   gem 'rubocop', '~> 1.29.0',  require: false
-  gem 'rubocop-performance', '~> 1.13.3', require: false
-  gem 'rubocop-rails', '~> 2.14.2', require: false
+  gem 'rubocop-performance', '~> 1.24.0', require: false
+  gem 'rubocop-rails', '~> 2.30.0', require: false
   gem 'factory_girl_rails', '~> 4.9.0'
 end
 
@@ -141,7 +141,7 @@ group :test do
   gem 'capybara', '~> 3.37.0'
   gem 'rspec-rails', '~> 5.1.2'
 
-  gem 'cucumber-rails', '~> 2.2.0', require: false # require: false is needed for cucumber-rails
+  gem 'cucumber-rails', '~> 2.3.0', require: false # require: false is needed for cucumber-rails
   gem 'cucumber', '3.1.2'
 
   gem 'selenium-webdriver', '~> 4.1.0'
