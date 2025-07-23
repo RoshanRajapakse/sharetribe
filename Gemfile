@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 
 ruby '2.7.5'
 
-gem 'rails', '6.1.7.2'
+gem 'rails', '6.1.7.3'
 
 gem 'coffee-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.2.0'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.1.0'
 gem 'compass-rails', '~> 4.0.0'
 
-gem 'jquery-rails', '~> 4.3.1'
+gem 'jquery-rails', '~> 4.4.0'
 
 # Bundle the extra gems:
 
@@ -50,13 +50,13 @@ gem 'delayed_job', '~> 4.1.3'
 gem 'delayed_job_active_record', '~> 4.1.3'
 
 gem 'web_translate_it', '~> 2.6.2'
-gem 'rails-i18n', '~> 6.0'
-gem 'devise', '~> 4.8.1'
+gem 'rails-i18n', '~> 7.0', '>= 7.0.1'
+gem 'devise', '~> 4.9.0'
 gem 'devise-encryptable', '~> 0.2.0'
 gem 'omniauth-facebook', '~> 9.0.0'
 gem 'omniauth-google-oauth2', '~> 1.0.1'
 gem 'omniauth-linkedin-oauth2', '~> 1.0.0'
-gem 'omniauth-rails_csrf_protection', '~> 1.0.1'
+gem 'omniauth-rails_csrf_protection', '~> 1.0.2'
 
 # Dynamic form adds helpers that are needed, e.g. error_messages
 gem 'dynamic_form', '~> 1.1.4'
@@ -72,7 +72,7 @@ gem 'mercury-rails',
 gem 'countries', '~> 5.0.1', require: 'countries/global'
 gem 'mail_view', '~> 2.0.4'
 gem 'statesman', '~> 9.0.1'
-gem 'premailer-rails', '~> 1.11.1'
+gem 'premailer-rails', '~> 1.12.0'
 gem 'css_parser', '~> 1.11.0'
 gem 'stringex', '~> 2.8.5'
 gem 'paypal-sdk-permissions', '~> 1.96.4'
@@ -80,18 +80,18 @@ gem 'paypal-sdk-merchant', '~> 1.117.2'
 gem 'airbrake', '~> 10.0.4'
 gem 'stripe', '~> 5.55.0'
 
-gem 'lograge', '~> 0.12.0'
+gem 'lograge', '~> 0.13.0'
 gem 'public_suffix' # Needed currently to set GA hostname right, probably not
 # needed anymore when GA script updated.
 
 # Session store was removed from Rails 4
-gem 'activerecord-session_store', '~> 2.0.0'
+gem 'activerecord-session_store', '~> 2.1.0'
 
 gem 'faraday', '~> 1.10.0'
 gem 'faraday_middleware', '~> 1.2.0'
 gem 'faraday-encoding', '~> 0.0.5'
 
-gem 'react_on_rails', '>= 11.3.0'
+gem 'react_on_rails', '>= 13.1.0'
 
 gem 'sitemap_generator', '~> 6.2.1'
 
@@ -138,10 +138,10 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '~> 3.37.0'
-  gem 'rspec-rails', '~> 5.1.2'
+  gem 'capybara', '~> 3.37.1'
+  gem 'rspec-rails', '~> 6.0.0'
 
-  gem 'cucumber-rails', '~> 2.2.0', require: false # require: false is needed for cucumber-rails
+  gem 'cucumber-rails', '~> 2.3.0', require: false # require: false is needed for cucumber-rails
   gem 'cucumber', '3.1.2'
 
   gem 'selenium-webdriver', '~> 4.1.0'
@@ -160,7 +160,7 @@ group :test do
   gem 'fake_stripe', git: 'https://github.com/ithouse/fake_stripe.git', ref: '56fe73dc420d161ecf9842739af7d857031ca1b2'
   gem 'poltergeist', '~> 1.18.1'
   gem 'puma', '~> 5.6.4'
-  gem 'webdrivers', '~> 5.0.0'
+  gem 'webdrivers', '~> 5.1.0'
   gem 'multi_test', '0.1.2'
 end
 
@@ -170,7 +170,7 @@ end
 
 
 gem 'mini_racer', '~> 0.6.0', platforms: :ruby
-gem 'js-routes', '~> 2.2.3'
+gem 'js-routes', '~> 2.2.4'
 # Color utilities needed for landing page
 gem 'color', '~> 1.8'
 
