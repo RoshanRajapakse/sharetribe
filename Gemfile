@@ -61,7 +61,7 @@ gem 'omniauth-rails_csrf_protection', '~> 1.0.1'
 # Dynamic form adds helpers that are needed, e.g. error_messages
 gem 'dynamic_form', '~> 1.1.4'
 gem 'truncate_html', '~> 0.9.3'
-gem 'money-rails', '~> 1.15.0'
+gem 'money-rails', '~> 2.0.0'
 
 # Modified version with Rails 5 fixes
 gem 'mercury-rails',
