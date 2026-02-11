@@ -40,7 +40,7 @@ gem 'will_paginate', '~> 3.3.1'
 gem 'redis', '~> 4.6.0'
 gem 'hiredis', '~> 0.6.3'
 gem 'thinking-sphinx', '~> 3.3.0'
-gem 'flying-sphinx', '~> 1.2.0'
+gem 'flying-sphinx', '~> 1.3.0'
 # Use patched v2.0.2
 # Fixes issues: Create a new delayed delta job if there is an existing delta job which has failed
 gem 'ts-delayed-delta', '2.1.0'
@@ -53,9 +53,9 @@ gem 'web_translate_it', '~> 2.6.2'
 gem 'rails-i18n', '~> 6.0'
 gem 'devise', '~> 4.8.1'
 gem 'devise-encryptable', '~> 0.2.0'
-gem 'omniauth-facebook', '~> 9.0.0'
-gem 'omniauth-google-oauth2', '~> 1.0.1'
-gem 'omniauth-linkedin-oauth2', '~> 1.0.0'
+gem 'omniauth-facebook', '~> 10.0.0'
+gem 'omniauth-google-oauth2', '~> 1.1.0'
+gem 'omniauth-linkedin-oauth2', '~> 1.0.1'
 gem 'omniauth-rails_csrf_protection', '~> 1.0.1'
 
 # Dynamic form adds helpers that are needed, e.g. error_messages
@@ -87,9 +87,9 @@ gem 'public_suffix' # Needed currently to set GA hostname right, probably not
 # Session store was removed from Rails 4
 gem 'activerecord-session_store', '~> 2.0.0'
 
-gem 'faraday', '~> 1.10.0'
+gem 'faraday', '~> 2.14.1'
 gem 'faraday_middleware', '~> 1.2.0'
-gem 'faraday-encoding', '~> 0.0.5'
+gem 'faraday-encoding', '~> 0.0.6'
 
 gem 'react_on_rails', '>= 11.3.0'
 
